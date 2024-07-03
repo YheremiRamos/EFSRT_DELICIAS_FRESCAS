@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/app.js" async></script>
+    <title>Productos | Delicias Frescas</title>
+</head>
+<body>
+
+  
+        <div class="header-area">
+          <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid p-0">
+              <div class="row align-items-center no-gutters">
+                <div class="col-xl-12 col-lg-12">
+                  <div class="main-menu d-none d-lg-block col-12" style="text-align: center; margin: 1%;">
+                    <nav class="col-12">
+                      <ul id="navigation" style="display: inline-block; text-align: left;">
+                        <li><a class="active" href="index.html"><font color="#ed4a8d">Inicio</font></a></li>
+                        <li><a href=""><font color="#ed4a8d"> Menú</font></a>
+                          <ul class="submenu">
+                            <li><a href="Pasteles.html">Pasteles</a></li>
+                            <li><a href="Panaderia.html">Panaderia</a></li>
+                            <li><a href="Bebidas.html">Bebida</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="contact.html"><font color="#ed4a8d">Contáctanos</font></a></li>
+                        <li><a href="tienda.html"><font color="#ed4a8d">Tienda</font></a></li>
+                      </ul>
+                        <a  class="login"  href="login.html"> <i class="fa-solid fa-user fa-2xl"></i>  </a>
+                    </nav>
+    
+    
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="mobile_menu d-block d-lg-none"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
+      
+
+    <header></header>
+    
+    <div class="section_title text-center">
+        <span>Productos</span>
+        <h3>Ofreciendo lo mejor para usted</h3>
+    </div>
+
+         <!-- Barra de búsqueda -->
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar productos..." onkeyup="filterProducts()">
+            <i class="fa fa-search"></i>
+        </div>
+    <section class="contenedor">
+        
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items" id="product-container">
+           
+
+            <div class="item">
+                <span class="titulo-item">Tarta de Chocolate</span>
+                <img src="img/productos/tienda/1.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 16</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Tarta de Limón</span>
+                <img src="img/productos/tienda/2.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 14</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Tarta de Queso</span>
+                <img src="img/productos/tienda/3.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 16</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Tarta de Manzana</span>
+                <img src="img/productos/tienda/4.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 13</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Tarta de Frutas</span>
+                <img src="img/productos/tienda/5.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 17</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de Zanahoria</span>
+                <img src="img/productos/tienda/6.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 12</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de Fresas</span>
+                <img src="img/productos/tienda/7.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 13</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de Chocolate</span>
+                <img src="img/productos/tienda/8.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 14</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel Red Velvet</span>
+                <img src="img/productos/tienda/9.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 15</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pastel de Coco</span>
+                <img src="img/productos/tienda/10.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 14</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pan de Centeno</span>
+                <img src="img/productos/tienda/11.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 3</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pan de Espelta</span>
+                <img src="img/productos/tienda/12.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 4</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pan de Maiz</span>
+                <img src="img/productos/tienda/13.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 3</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pan de Plátano</span>
+                <img src="img/productos/tienda/14.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 4</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pan de Molde</span>
+                <img src="img/productos/tienda/15.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 3</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pan Baguette</span>
+                <img src="img/productos/tienda/16.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 2</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Café Americano</span>
+                <img src="img/productos/tienda/17.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 5</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Café Capuchino</span>
+                <img src="img/productos/tienda/18.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 6</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Café Latte</span>
+                <img src="img/productos/tienda/19.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 5</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Té Verde</span>
+                <img src="img/productos/tienda/20.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 4</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Té de Manzanilla</span>
+                <img src="img/productos/tienda/21.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 4</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Té Negro</span>
+                <img src="img/productos/tienda/22.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 4</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+
+
+
+        </div>
+        <!-- Carrito de Compras -->
+      <!-- Carrito de Compras -->
+<div class="carrito" id="carrito">
+    <div class="header-carrito">
+        <h2 style="color: white;">Tu Carrito</h2>
+    </div>
+
+    <div class="carrito-items">
+        <!-- Los elementos del carrito se agregarán dinámicamente aquí desde JavaScript -->
+    </div>
+
+    <div class="carrito-total">
+        <div class="fila">
+            <strong>Tu Total</strong>
+            <span class="carrito-precio-total">
+                $0,00 <!-- Aquí se mostrará el total del carrito -->
+            </span>
+        </div>
+        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+    </div>
+</div>
+<!--fin del carrito-->
+    </section>
+    <footer class="footer">
+        <div class="footer_top">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="footer_widget text-center">
+                  <h3 class="footer_title">TELÉFONO</h3>
+                  <a class="number" href="#">999-999-999</a>
+                  <a class="number" href="#">934-382-535</a>
+                  <a class="number" href="#">966-524-553</a>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="footer_widget text-center">
+                  <h3 class="footer_title">REDES SOCIALES</h3>
+                  <div class="d-flex justify-content-center">
+                    <a class="mx-3" href="#">
+                      <img src="./img/redessociales/facebook.png" alt="" width="57px">
+                    </a>
+                    <a class="mx-3" href="#">
+                      <img src="./img/redessociales/instagram.png" alt="">
+                    </a>
+                    <a class="mx-3" href="#">
+                      <img src="./img/redessociales/tiktok.png" alt="" >
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="footer_widget text-center">
+                  <h3 class="footer_title">DIRECCIÓN</h3>
+                  <div class="row">
+                    <!-- Ubicación 1 -->
+                    <div class="col-lg-12">
+                      <div class="thumb" style="padding: 0% 10%; height: 100%;">
+                        <a href="https://maps.app.goo.gl/eDWpSTx3tXq2QBPh9">
+                          <iframe style="height: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.4271277840294!2d-77.07752982906129!3d-11.9449016790051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d19c17001997%3A0xfb202b39d72b4bd2!2sGrupo%20A7%20Contrata%20-%20Arquitectura.Dise%C3%B1o.Construcci%C3%B3n!5e0!3m2!1ses-419!2spe!4v1720023181635!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copy-right_text">
+          <div class="container">
+            <div class="footer_border"></div>
+            <div class="row">
+              <div class="col-xl-12">
+                <p class="copy_right text-center">
+                  Copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  Delicias Frescas <i class="fa fa-heart"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script>
+        function filterProducts() {
+            let input = document.getElementById('search-input');
+            let filter = input.value.toLowerCase();
+            let productContainer = document.getElementById('product-container');
+            let items = productContainer.getElementsByClassName('item');
+
+            for (let i = 0; i < items.length; i++) {
+                let title = items[i].getElementsByClassName('titulo-item')[0];
+                if (title.innerHTML.toLowerCase().indexOf(filter) > -1) {
+                    items[i].style.display = "";
+                } else {
+                    items[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+    
+</body>
+</html>

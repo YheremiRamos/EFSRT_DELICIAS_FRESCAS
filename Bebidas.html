@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -32,44 +34,38 @@
         <![endif]-->
 
      <!-- header-start -->
-    <header>
-        <div class="header-area">
-          <div id="sticky-header" class="main-header-area">
-            <div class="container-fluid p-0">
-              <div class="row align-items-center no-gutters">
-                <div class="col-xl-5 col-lg-5">
-                  <div class="main-menu d-none d-lg-block">
-                    <nav>
-                      <ul id="navigation">
-                        <li><a class="active" href="index.html">Inicio</a></li>
-                        <li><a href=""> Menu</a>
-                          <ul class="submenu">
-                            <li><a href="Pasteles.html">Pasteles</a></li>
-                            <li><a href="Panaderia.html">Panaderia</a></li>
+     <header>
+      <div class="header-area">
+        <div id="sticky-header" class="main-header-area">
+          <div class="container-fluid p-0">
+            <div class="row align-items-center no-gutters">
+              <div class="col-xl-12 col-lg-12">
+                <div class="main-menu d-none d-lg-block col-12" style="text-align: center; margin: 1%;">
+                  <nav class="col-12">
+                    <ul id="navigation" style="display: inline-block; text-align: left;">
+                      <li><a href="index.html"><font color="#ed4a8d">Inicio</font></a></li>
+                      <li><a class="active" href=""><font color="#ed4a8d"> Menú</font></a>
+                        <ul class="submenu">
+                          <li><a href="Pasteles.html">Pasteles</a></li>
+                          <li><a href="Panaderia.html">Panaderia</a></li>
                         </ul>
-                        </li>
-                        
-                        <li><a href="contact.html">Contactanos</a></li>
-                      </ul>
-                    </nav>
-                  </div>
+                      </li>
+                      <li><a href="contact.html"><font color="#ed4a8d">Contáctanos</font></a></li>
+                      <li><a href="tienda.html"><font color="#ed4a8d">Tienda</font></a></li>
+                    </ul>
+                    <a  class="login"  href="login.html"> <i class="fa-solid fa-user fa-2xl"></i>  </a>
+
+                  </nav>
                 </div>
-                <div class="col-xl-2 col-lg-2">
-                  <div class="logo-img">
-                    <a>
-                      <img src="img/logo.png" />
-                    </a>
-                  </div>
-                </div>
-  
-                <div class="col-12">
-                  <div class="mobile_menu d-block d-lg-none"></div>
-                </div>
+              </div>
+              <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none"></div>
               </div>
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
       <!-- header-end -->
 
     <!-- bradcam_area_start -->
@@ -101,7 +97,7 @@
                         <h3>Pepsi de lata</h3>
                         <p>
                            </p>
-                        <span>$0.65</span>
+                        <span>S/. 6.00</span>
                     </div>
                 </div>
             </div>
@@ -115,7 +111,7 @@
                     <div class="info">
                         <h3>Coca de lata</h3>
                         <p></p>
-                        <span>$0.35</span>
+                        <span>S/3.00</span>
                     </div>
                 </div>
 
@@ -129,7 +125,7 @@
                     <div class="info">
                         <h3>Licuado de fresa</h3>
                         <p></p>
-                        <span>$1.00</span>
+                        <span>S/5.00</span>
                     </div>
                 </div>
             </div>
@@ -141,7 +137,7 @@
                     <div class="info">
                         <h3>Licuado de Guineo</h3>
                         <p></p>
-                        <span>$1.00</span>
+                        <span>S/8.00</span>
                     </div>
                 </div>
             </div>
@@ -153,7 +149,7 @@
                     <div class="info">
                         <h3>Café con o sin cremora</h3>
                         <p></p>
-                        <span>$0.35</span>
+                        <span>S/5.00</span>
                     </div>
                 </div>
             </div>
@@ -229,33 +225,46 @@
         <div class="footer_top">
           <div class="container">
             <div class="row">
-  
               <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="footer_widget text-center">
-                  <h3 class="footer_title pos_margin">NUESTROS TELEFONOS</h3>
-                  
-                  <a class="number" href="">2453-6846</a>
+                  <h3 class="footer_title">TELÉFONO</h3>
+                  <a class="number" href="#">999-999-999</a>
+                  <a class="number" href="#">934-382-535</a>
+                  <a class="number" href="#">966-524-553</a>
                 </div>
               </div>
-  
               <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="footer_widget text-center">
-                  <h3 class="footer_title pos_margin">NUESTROS TELEFONOS</h3>
-                  
-                  <a class="number" href="#">2455-2023</a>
+                  <h3 class="footer_title">REDES SOCIALES</h3>
+                  <div class="d-flex justify-content-center">
+                    <a class="mx-3" href="#">
+                      <img src="./img/redessociales/facebook.png" alt="" width="57px">
+                    </a>
+                    <a class="mx-3" href="#">
+                      <img src="./img/redessociales/instagram.png" alt="">
+                    </a>
+                    <a class="mx-3" href="#">
+                      <img src="./img/redessociales/tiktok.png" alt="" >
+                    </a>
+                  </div>
                 </div>
               </div>
-  
-              <div class="col-xl-4 col-md-12 col-lg-4">
+              <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="footer_widget text-center">
-                  <h3 class="footer_title">NUESTROS TELEFONOS</h3>
-                  <a class="number" href="#">2483-3230</a>
+                  <h3 class="footer_title">DIRECCIÓN</h3>
+                  <div class="row">
+                    <!-- Ubicación 1 -->
+                    <div class="col-lg-12">
+                      <div class="thumb" style="padding: 0% 10%; height: 100%;">
+                        <a href="https://maps.app.goo.gl/eDWpSTx3tXq2QBPh9">
+                          <iframe style="height: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.4271277840294!2d-77.07752982906129!3d-11.9449016790051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d19c17001997%3A0xfb202b39d72b4bd2!2sGrupo%20A7%20Contrata%20-%20Arquitectura.Dise%C3%B1o.Construcci%C3%B3n!5e0!3m2!1ses-419!2spe!4v1720023181635!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-  
             </div>
-  
-            <div class="row justify-content-center"></div>
           </div>
         </div>
         <div class="copy-right_text">
@@ -264,16 +273,11 @@
             <div class="row">
               <div class="col-xl-12">
                 <p class="copy_right text-center">
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                   Copyright &copy;
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  All rights reserved<i
-                    class="fa fa-heart-o"
-                    aria-hidden="true"
-                  ></i>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Delicias Frescas <i class="fa fa-heart"></i>
                 </p>
               </div>
             </div>

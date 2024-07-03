@@ -2604,9 +2604,9 @@ h3 {
 /* line 167, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 15px;
-  color: #919191;
+  color: #ffffff;
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 10000;
 }
 
 @media (max-width: 767px) {
@@ -6295,3 +6295,90 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*footer*/
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+.footer_top {
+  margin-bottom: 20px;
+}
+.footer_widget {
+  margin-bottom: 30px;
+}
+.footer_title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #343a40;
+  text-transform: uppercase;
+  position: relative;
+}
+.footer_title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #e55087;
+  margin: 10px auto 0;
+}
+.number {
+  display: block;
+  font-size: 18px;
+  color: #e55087;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.number:hover {
+  color: #343a40;
+}
+.copy-right_text {
+  background-color: #e55087;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  
+}
+.footer_border {
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+.fa-heart {
+  color: #e55087;
+}
+
+
+/*tienda buscador*/
+.search-bar {
+  position: relative;
+  margin: 20px 0;
+  text-align: right;
+  margin-right: 10ch;
+}
+
+.search-bar input {
+  padding: 10px 40px 10px 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+}
+
+.search-bar .fa-search {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  pointer-events: none;
+}
+
+.login{
+  float: right;
+  margin-right: 5ch;
+}
+
+.login i{
+  color: #fff;
+}
